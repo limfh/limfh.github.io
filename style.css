@@ -1,0 +1,39 @@
+body {
+    font-family: Roboto;
+    background-color: #f4f4f4;
+    color: #78ee6d;
+    text-align: center;
+    background-image: url(img/background1.jpg);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+    text-decoration: none;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.mycontact {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.mycontact img {
+    width: 40px;
+    margin: 0 10px;
+    
+}
+.my-project{
+    text-decoration: none;
+    color: #78ee6d;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
