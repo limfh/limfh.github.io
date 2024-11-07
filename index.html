@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Мое Портфолио</title>
-</head>
-<body>
-    <div class="container">
-        <img src="../img/avatar.png" class="avatar">
-        <h1>Привет, я Артем Рожнов Валерьевич</h1>
-        <p>Добро пожаловать в мое портфолио! Здесь вы найдете мои проекты и достижения.</p>
-        <div>
-            <p>Изучаю языки такие как:</p>
-            <img src="../img/language program.png" alt="">
-            <p>так же изучаю:</p>
-<<<<<<< HEAD
-            <img src="../img/с+++.png" alt="">
-=======
-            <img src="../img/с++.png" alt="">
->>>>>>> 6606cb7b334881d8b27770e4e31f7a81c7e2151e
-            <div class="my-project">
-           <a  class= "my-project" href="https://github.com/limfh/project">Mои проекты</a>
+    <head>
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>portfolio</title>
+    </head>
+    <body>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+        <div class="container">
+            <div class="header">
+                <div class="navbar">
+                    <a href="#">На главную</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Изучаю</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="head-content">
+                <img src="images/avatar.png" height="300px" width="300px">
+                <p class="name">Рожнов Артём Валерьевич</p>
+                <p class="desc">Web Developer</p>
+            </div>
+            </div>
+            <div class="about-section" id="about">
+                <h2>Обо мне</h2>
+                <p>Я веб-разработчик. Интересуюсь созданием красивых веб-сайтов.</p>
+        <br>
+        <div class="skills-section" id="skills">
+            <h2>Изучаю</h2>
+            <img src="images/html.png">
+            <img src="images/css.png">
+            <img src="images/js.png">
+            <img  class="c_logo"  src="images/128px-C++_logo.png">
         </div>
+        <div class="contact-section" id="contact">
+            <span>Контакты</span>
+            <div class="contact-img">
+                <div class="text1">
+                <p class="text1">Email: roznovartem123@list.ru</p>
+            </div>
+            <div class="wrapper">
+                <button class="arrow-button" onclick="toggleTooltip()"><img src="images/up-arrow.png" alt=""></button>
+                <div class="tooltip" id="tooltip">
+                    <a href="https://vk.com/artyom.rozhnov" target="_blank">
+                        <img src="images/vk logo.png" alt="ВКонтакте"> 
+                    </a>
+                    <a href="https://t.me/Limfick" target="_blank">
+                        <img src="images/telegram logo.png" alt="Telegram"> 
+                    </a>
+                </div>
+            </div>
+            
+            <script>
+                function toggleTooltip() {
+                    var tooltip = document.getElementById("tooltip");
+                    tooltip.classList.toggle("show");
+                }
+            </script>
         
-        
-        <div class="mycontact">
-            <h2>Свяжитесь со мной</h2>
-            <a href="https://t.me/Limfick">
-                <img src="../img/telegram logo.png" alt="">
-            </a>
-            <a href="https://vk.com/artyom.rozhnov">
-                <img src="../img/vk logo.png" alt="">
-            </a>
-            <a href="https://discord.com/users/l1mfh">
-                <img src="../img/discord logo.png" alt="">
-            </a>
-        </div>
     </div>
-</body>
-</html>
-
+    </body>
+    =
+    </script>
+    </html>
